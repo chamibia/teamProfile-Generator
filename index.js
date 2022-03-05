@@ -44,7 +44,7 @@ inquirer.prompt([
       },
       {
         type: "input",
-        name: "ManagerEmail",
+        name: "managerEmail",
         message: "What is your managers email address?",
       },
       {
@@ -62,6 +62,7 @@ inquirer.prompt([
         answers.managerOffice
       )
       team.push(manager);
+      console.log(manager)
       idArray.push(answers.managerId);
       promptUser();
     })
