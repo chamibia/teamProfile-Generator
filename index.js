@@ -74,14 +74,14 @@ promptUser = () => {
         name: "chosen",
         message:
           "Add any of the following options to build a team (Enter and press the arrows to chose)",
-        choices: ["Engineer", "Intern", "Done"],
+        choices: ["Engineer", "Intern", "Done"]
       }
     ])
     .then(answer => {
       if (answer.chosen === "Engineer") {
         createEngineer();
       } else if (answer.chosen === "Intern") {
-        createIntern;
+        createIntern();
       } else {
         createTeam();
       }
@@ -162,5 +162,5 @@ function createIntern() {
     })
 }
 function createTeam() {
-  fs.writeFile('index.html', template(index), 'utf-8', err => err ? console.log(err) : console.log('HTML has been created'));
+  fs.writeFile('index.html', template(team), 'utf-8', err => err ? console.log(err) : console.log('HTML has been created'));
 }
