@@ -152,7 +152,7 @@ function createIntern() {
     ])
     .then(answer => {
       const intern = new Intern(
-        answer.interName,
+        answer.internName,
         answer.internId,
         answer.internEmail,
         answer.school
