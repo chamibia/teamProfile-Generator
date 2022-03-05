@@ -37,5 +37,9 @@ npm run test
 chamibia
 
 ## Video
-bischami@gmail.com
+https://drive.google.com/file/d/1OenYNkJ0XjEd4VhKIkHo3o3pVtYkFlw4/view?usp=sharing
+
+## Preview
+
+![screenshot](./images/team-profile-gen.png)
 
